@@ -1,0 +1,95 @@
+/* Global styles */
+body {
+  background-color: #e2f2ff;
+  font-family: Arial, sans-serif;
+}
+
+/* Table styles */
+table {
+  border-collapse: collapse;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.492);
+  border-radius: 10px;
+}
+
+/* Table title styles */
+.title th {
+  border: 1px solid #fff;
+  background-color: #6c7a89;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: large;
+}
+
+/* Table cell styles */
+td {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Table header styles */
+th {
+  background-color: #6c7a89;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: large;
+}
+
+/* Alternating row styles */
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+/* Image styles */
+img {
+  max-width: 170px;
+  max-height: 170px;
+}
+
+/* List styles */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+ul li:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+ul li:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* List item hover styles */
+ul li:hover {
+  background-color: #f5f5f5;
+}
+
+/* Type-specific hover styles */
+.grass:hover {
+  background-color: rgba(122, 204, 76, 0.2);
+}
+
+.fire:hover {
+  background-color: rgba(204, 76, 76, 0.2);
+}
+
+.water:hover {
+  background-color: rgba(76, 122, 204, 0.2);
+}
